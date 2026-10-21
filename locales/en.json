@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "Abdelhamid El Aali — Full Stack Web Developer (Laravel & React)",
+    "description": "Professional portfolio of Abdelhamid El Aali, Full Stack Web Developer specializing in Laravel, React, REST APIs, and AI automation based in Ben Guerir, Morocco.",
+    "keywords": "Abdelhamid El Aali, Full Stack Developer, Laravel, React, Ben Guerir, Morocco, PHP, JavaScript, Portfolio"
+  },
+  "nav": {
+    "skipToContent": "Skip to main content",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "cvFile": "./assets/cv/Abdelhamid-El-Aali-CV-EN.pdf",
+    "cvFileName": "Abdelhamid-El-Aali-CV-EN.pdf",
+    "toggleTheme": "Toggle color theme",
+    "toggleLanguage": "Switch language",
+    "menuToggle": "Open navigation menu",
+    "menuClose": "Close navigation menu"
+  },
+  "hero": {
+    "status": "Available for new opportunities",
+    "greeting": "Hello, I am",
+    "name": "Abdelhamid El Aali",
+    "rolePrefix": "Full Stack Developer",
+    "roles": [
+      "Laravel & PHP Specialist",
+      "React & Next.js Craftsman",
+      "RESTful API Architect",
+      "AI Automation & Systems Advocate"
+    ],
+    "pitch": "Passionate Full Stack Developer (Laravel & React) with a solid foundation in web technologies and a strong interest in educational initiatives. Eager to use my technical expertise in programming, networking and systems to simplify complex concepts and promote digital culture among young learners.",
+    "ctaProjects": "Explore my projects",
+    "ctaContact": "Get in touch",
+    "scrollDown": "Scroll down"
+  },
+  "about": {
+    "badge": "Profile & Vision",
+    "title": "Writing resilient code, demystifying technology.",
+    "subtitle": "Combining software discipline, technical pedagogy, and product focus.",
+    "bioParagraph1": "Passionate Full Stack Developer (Laravel & React) with a solid foundation in modern web technologies, scalable backends, and responsive client architectures.",
+    "bioParagraph2": "Eager to use technical expertise in programming, networking, and systems to simplify complex concepts and promote digital culture among young learners. Known for effective communication, teamwork, and structured problem-solving.",
+    "stats": {
+      "internships": "Technical Internships",
+      "internshipsCount": "2",
+      "technologies": "Technologies Mastered",
+      "technologiesCount": "25+",
+      "projects": "Completed Projects",
+      "projectsCount": "8+",
+      "languages": "Spoken Languages",
+      "languagesCount": "3"
+    },
+    "bento": {
+      "locationTitle": "Location",
+      "locationVal": "Ben Guerir, Morocco",
+      "locationSub": "Available on-site & remote",
+      "languagesTitle": "Working Languages",
+      "arabic": "Arabic",
+      "arabicLevel": "Native / Fluent",
+      "french": "French",
+      "frenchLevel": "Professional & Technical",
+      "english": "English",
+      "englishLevel": "Professional & Technical",
+      "diplomaTitle": "Specialized Degree",
+      "diplomaVal": "Full Stack Web Developer",
+      "diplomaInst": "ISTA Ben Guerir (2026)",
+      "missionTitle": "Educational Outreach",
+      "missionDesc": "Fostering digital literacy for young learners through visual coding (Scratch), basic robotics, and interactive workshops."
+    }
+  },
+  "skills": {
+    "badge": "Toolbox",
+    "title": "Technical stack & methodologies",
+    "subtitle": "A modern ecosystem built around performance, security, and clean architecture.",
+    "marqueeTitle": "Technologies & Ecosystem",
+    "categories": {
+      "frontend": "Front-End",
+      "backend": "Back-End & API",
+      "databases": "Databases",
+      "devops": "DevOps & Cloud",
+      "tools": "Tools & Workflows",
+      "creative": "UI/UX & Creative",
+      "education": "Educational Tools",
+      "soft": "Soft Skills"
+    }
+  },
+  "experience": {
+    "badge": "Track Record",
+    "title": "Work experience and education",
+    "subtitle": "Continuous progression delivering concrete impact across industrial and public sector initiatives.",
+    "tabExp": "Experience",
+    "tabEdu": "Education",
+    "present": "Present",
+    "items": {
+      "ocp": {
+        "title": "Full Stack Developer Intern",
+        "company": "Groupe OCP — Benguerir Site",
+        "period": "May 2026 · 1 month",
+        "project": "OCP Connect",
+        "description": "Architected and delivered the 'OCP Connect' internal web platform to streamline cross-departmental collaboration and ensure secure technical document distribution.",
+        "highlights": [
+          "Engineered a modular Laravel MVC architecture with role-based access control.",
+          "Implemented encrypted technical attachment handling and file audit tracing.",
+          "Designed a responsive user interface with client validation and automated activity logging."
+        ]
+      },
+      "laattaouia": {
+        "title": "Web Developer Intern",
+        "company": "Municipality of Laâttaouia",
+        "period": "March – April 2025 · 2 months",
+        "project": "Laâttaouia City Portal",
+        "description": "Full-cycle design and deployment of the official municipal portal for public news dissemination, citizen administrative procedures, and dynamic content management.",
+        "highlights": [
+          "Built a tailored administrative CMS enabling non-technical staff to publish municipal updates.",
+          "Optimized local SEO and accessibility standards for citizens across diverse devices.",
+          "Integrated citizen request forms with automated submission dispatching."
+        ]
+      },
+      "ista": {
+        "title": "Specialized Technician in Full Stack Web Development",
+        "institution": "Specialized Institute of Applied Technology (ISTA), Ben Guerir",
+        "period": "2024 – 2026",
+        "description": "Rigorous curriculum covering software design patterns, MVC frameworks, relational and NoSQL databases, web security, and agile methodologies."
+      },
+      "bac": {
+        "title": "High School Baccalaureate in Life and Earth Sciences",
+        "institution": "Rahali El Farouq High School",
+        "period": "2023",
+        "description": "Scientific foundation fostering rigorous analytical reasoning, scientific method, and structured problem solving."
+      }
+    }
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Featured projects & case studies",
+    "subtitle": "Production-ready web applications delivering verifiable business and civic value.",
+    "filterAll": "All",
+    "filterLaravel": "Laravel",
+    "filterWebApp": "Web App",
+    "viewLive": "Live preview",
+    "viewCode": "Source code",
+    "detailsBtn": "Details & Architecture",
+    "metricsLabel": "Impact / Metric:",
+    "modalClose": "Close project details",
+    "stackLabel": "Tech Stack:"
+  },
+  "services": {
+    "badge": "Capabilities",
+    "title": "How I can contribute to your initiatives",
+    "subtitle": "Turnkey engineering solutions delivered with high standards and active listening.",
+    "s1": {
+      "title": "Full Stack Web Applications",
+      "desc": "High-performance web applications built with Laravel and React / Next.js, marrying clean interfaces with robust backend domain logic."
+    },
+    "s2": {
+      "title": "REST API Architecture",
+      "desc": "Fast, well-documented (OpenAPI/Postman), and secured (JWT, OAuth) APIs engineered to power responsive web and mobile clients."
+    },
+    "s3": {
+      "title": "Workflow & AI Automation",
+      "desc": "Automating business pipelines with n8n and Python microservices to eradicate manual bottlenecks and unify data silos."
+    },
+    "s4": {
+      "title": "Digital Workshops & Mentorship",
+      "desc": "Interactive training in visual coding (Scratch), web fundamentals, and beginner robotics to cultivate tomorrow's digital makers."
+    }
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's discuss your next project",
+    "subtitle": "Open to full-time engineering roles, freelance challenges, and educational collaborations. Inquiries answered within 24 hours.",
+    "cards": {
+      "email": "Direct Email",
+      "emailValue": "abdelhamidelaali@gmail.com",
+      "phone": "Phone & WhatsApp",
+      "phoneValue": "+212 6 48 55 40 12",
+      "location": "Location",
+      "locationValue": "Ben Guerir, Morocco",
+      "linkedin": "LinkedIn",
+      "linkedinValue": "linkedin.com/in/abdelhamid-el-aali",
+      "github": "GitHub",
+      "githubValue": "github.com/Abdelhamid-elaali",
+      "copyTooltip": "Click to copy"
+    },
+    "toastCopySuccess": "Copied to clipboard!",
+    "toastCopyFail": "Failed to copy",
+    "form": {
+      "nameLabel": "Your Name",
+      "namePlaceholder": "e.g. Alex Morgan",
+      "emailLabel": "Your Email Address",
+      "emailPlaceholder": "alex@example.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Project Discussion / Hiring Opportunity",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Describe your project scope, timeline, or questions...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Thank you! Your message has been sent successfully. I will get back to you shortly.",
+      "error": "An error occurred while sending. Please use the direct mailto link or email me at abdelhamidelaali@gmail.com.",
+      "validationError": "Please provide valid contact information."
+    }
+  },
+  "footer": {
+    "quote": "Building resilient web software, sharing the craft of code.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "craftedWith": "Handcrafted with clean, accessible Vanilla HTML, CSS & JavaScript. Zero external runtime bloat."
+  },
+  "notFound": {
+    "title": "404 — Page Not Found",
+    "subtitle": "The requested resource could not be found or has been moved.",
+    "message": "It looks like you followed an outdated link or typed an invalid URL.",
+    "backHome": "Back to Home"
+  }
+}

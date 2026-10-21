@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "Abdelhamid El Aali — Développeur Web Full Stack (Laravel & React)",
+    "description": "Portfolio professionnel d'Abdelhamid El Aali, Développeur Web Full Stack spécialisé en Laravel, React, APIs REST et automatisation IA basé à Ben Guerir, Maroc.",
+    "keywords": "Abdelhamid El Aali, Développeur Web Full Stack, Laravel, React, Ben Guerir, Maroc, PHP, JavaScript, Portfolio"
+  },
+  "nav": {
+    "skipToContent": "Aller au contenu principal",
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Parcours",
+    "projects": "Projets",
+    "services": "Services",
+    "contact": "Contact",
+    "downloadCv": "Télécharger CV",
+    "cvFile": "./assets/cv/Abdelhamid-El-Aali-CV-FR.pdf",
+    "cvFileName": "Abdelhamid-El-Aali-CV-FR.pdf",
+    "toggleTheme": "Changer le thème",
+    "toggleLanguage": "Changer la langue",
+    "menuToggle": "Ouvrir le menu de navigation",
+    "menuClose": "Fermer le menu de navigation"
+  },
+  "hero": {
+    "status": "Disponible pour de nouvelles opportunités",
+    "greeting": "Bonjour, je suis",
+    "name": "Abdelhamid El Aali",
+    "rolePrefix": "Développeur Full Stack",
+    "roles": [
+      "Laravel & PHP Expert",
+      "React & Next.js Specialist",
+      "Architecte APIs REST",
+      "Passionné Automatisation & IA"
+    ],
+    "pitch": "Développeur Full Stack passionné, alliant la robustesse de Laravel à la réactivité de React. Animé par la rigueur logicielle, la transmission du savoir numérique et la création d'expériences web élégantes et scalables.",
+    "ctaProjects": "Explorer mes projets",
+    "ctaContact": "Me contacter",
+    "scrollDown": "Faire défiler"
+  },
+  "about": {
+    "badge": "Profil & Vision",
+    "title": "Créer du code pérenne, vulgariser la technologie.",
+    "subtitle": "Un profil alliant maîtrise technique, pédagogie et sens du produit.",
+    "bioParagraph1": "Développeur Full Stack (Laravel & React) passionné, doté d'une base solide en technologies web et d'un fort intérêt pour les initiatives éducatives.",
+    "bioParagraph2": "Désireux de mettre à profit mon expertise technique en programmation, réseaux et systèmes pour vulgariser des concepts complexes et promouvoir la culture numérique chez les jeunes apprenants. Reconnu pour ma communication efficace, mon esprit d'équipe et ma capacité à résoudre les problèmes.",
+    "stats": {
+      "internships": "Stages techniques",
+      "internshipsCount": "2",
+      "technologies": "Technologies maîtrisées",
+      "technologiesCount": "25+",
+      "projects": "Projets réalisés",
+      "projectsCount": "8+",
+      "languages": "Langues parlées",
+      "languagesCount": "3"
+    },
+    "bento": {
+      "locationTitle": "Localisation",
+      "locationVal": "Ben Guerir, Maroc",
+      "locationSub": "Disponible en présentiel & télétravail",
+      "languagesTitle": "Langues de travail",
+      "arabic": "Arabe",
+      "arabicLevel": "Langue maternelle / Courant",
+      "french": "Français",
+      "frenchLevel": "Professionnel & Technique",
+      "english": "Anglais",
+      "englishLevel": "Professionnel & Technique",
+      "diplomaTitle": "Formation Spécialisée",
+      "diplomaVal": "Développeur Web Full Stack",
+      "diplomaInst": "ISTA Ben Guerir (2026)",
+      "missionTitle": "Engagement Éducatif",
+      "missionDesc": "Sensibilisation des jeunes à la programmation visuelle (Scratch), à la robotique élémentaire et à l'inclusion digitale."
+    }
+  },
+  "skills": {
+    "badge": "Boîte à Outils",
+    "title": "Expertise technique & méthodologies",
+    "subtitle": "Un écosystème moderne centré sur la performance, la sécurité et l'architecture propre.",
+    "marqueeTitle": "Technologies & Écosystème",
+    "categories": {
+      "frontend": "Front-End",
+      "backend": "Back-End & API",
+      "databases": "Bases de Données",
+      "devops": "DevOps & Cloud",
+      "tools": "Outils & Méthodes",
+      "creative": "UI/UX & Multimédia",
+      "education": "Outils Pédagogiques",
+      "soft": "Soft Skills"
+    }
+  },
+  "experience": {
+    "badge": "Parcours & Éducation",
+    "title": "Expériences professionnelles et diplômes",
+    "subtitle": "Une progression continue axée sur des projets concrets à fort impact territorial et industriel.",
+    "tabExp": "Expérience",
+    "tabEdu": "Éducation",
+    "present": "En cours",
+    "items": {
+      "ocp": {
+        "title": "Développeur Full Stack (Stage)",
+        "company": "Groupe OCP — Site de Benguerir",
+        "period": "Mai 2026 · 1 mois",
+        "project": "OCP Connect",
+        "description": "Conception et implémentation de l'application web interne 'OCP Connect' visant à fluidifier la communication inter-départementale et le partage sécurisé de documents techniques.",
+        "highlights": [
+          "Architecture MVC Laravel avec gestion fine des habilitations et rôles.",
+          "Chiffrement et traçabilité des pièces jointes techniques.",
+          "Interface utilisateur réactive avec validation côté client et audit log."
+        ]
+      },
+      "laattaouia": {
+        "title": "Développeur Web (Stage)",
+        "company": "Commune de Laâttaouia",
+        "period": "Mars – Avril 2025 · 2 mois",
+        "project": "Portail Laâttaouia",
+        "description": "Conception intégrale et mise en ligne du portail web officiel de la commune pour la diffusion d'actualités municipales et l'accès dynamique aux démarches citoyennes.",
+        "highlights": [
+          "Mise en place d'un CMS administratif sur-mesure pour les rédacteurs communaux.",
+          "Optimisation SEO local et conformité accessibilité web pour les usagers.",
+          "Intégration d'un système de requêtes citoyennes et formulaires interactifs."
+        ]
+      },
+      "ista": {
+        "title": "Technicien Spécialisé en Développement Web Full Stack",
+        "institution": "Institut Spécialisé de Technologie Appliquée (ISTA), Ben Guerir",
+        "period": "2024 – 2026",
+        "description": "Formation approfondie en conception logicielle, architectures MVC, bases de données relationnelles et NoSQL, cybersécurité web et méthodologies agiles."
+      },
+      "bac": {
+        "title": "Baccalauréat en Sciences de la Vie et de la Terre (SVT)",
+        "institution": "Lycée Rahali El Farouq",
+        "period": "2023",
+        "description": "Formation scientifique rigoureuse développant l'esprit d'analyse, la méthode expérimentale et la logique de résolution de problèmes."
+      }
+    }
+  },
+  "projects": {
+    "badge": "Réalisations",
+    "title": "Projets phares & contributions",
+    "subtitle": "Applications web orientées performance, architecture modulaire et valeur métier tangible.",
+    "filterAll": "Tous",
+    "filterLaravel": "Laravel",
+    "filterWebApp": "Web App",
+    "viewLive": "Voir démo",
+    "viewCode": "Code source",
+    "detailsBtn": "Détails & Architecture",
+    "metricsLabel": "Impact / Métrique :",
+    "modalClose": "Fermer les détails du projet",
+    "stackLabel": "Technologies utilisées :"
+  },
+  "services": {
+    "badge": "Prestations",
+    "title": "Ce que je peux apporter à vos projets",
+    "subtitle": "Des solutions techniques clé en main conçues avec rigueur et écoute.",
+    "s1": {
+      "title": "Développement Full Stack",
+      "desc": "Applications web performantes avec Laravel et React / Next.js, alliant interfaces intuitives et logique métier robuste."
+    },
+    "s2": {
+      "title": "Conception d'APIs REST",
+      "desc": "APIs rapides, documentées (OpenAPI/Postman) et sécurisées (JWT, OAuth) pour alimenter des applications mobiles ou web."
+    },
+    "s3": {
+      "title": "Automatisation & Workflows IA",
+      "desc": "Intégration d'agents d'automatisation no-code/low-code (n8n, Python) pour éliminer les tâches répétitives et connecter vos outils."
+    },
+    "s4": {
+      "title": "Ateliers & Pédagogie Numérique",
+      "desc": "Animation d'ateliers d'initiation au code (Scratch, bases du web, robotique) et vulgarisation technologique pour apprenants."
+    }
+  },
+  "contact": {
+    "badge": "Prendre Contact",
+    "title": "Discutons de votre prochain projet",
+    "subtitle": "Ouvert aux opportunités d'emploi, missions freelance ou projets éducatifs. Réponse garantie sous 24 heures.",
+    "cards": {
+      "email": "Email professionnel",
+      "emailValue": "abdelhamidelaali@gmail.com",
+      "phone": "Téléphone & WhatsApp",
+      "phoneValue": "+212 6 48 55 40 12",
+      "location": "Localisation",
+      "locationValue": "Ben Guerir, Maroc",
+      "linkedin": "LinkedIn",
+      "linkedinValue": "linkedin.com/in/abdelhamid-el-aali",
+      "github": "GitHub",
+      "githubValue": "github.com/Abdelhamid-elaali",
+      "copyTooltip": "Cliquer pour copier"
+    },
+    "toastCopySuccess": "Copié dans le presse-papier !",
+    "toastCopyFail": "Échec de la copie",
+    "form": {
+      "nameLabel": "Votre nom",
+      "namePlaceholder": "ex. Mohamed Alami",
+      "emailLabel": "Votre adresse email",
+      "emailPlaceholder": "mohamed@exemple.com",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Proposition de projet / Opportunité",
+      "messageLabel": "Votre message",
+      "messagePlaceholder": "Décrivez votre projet, vos besoins ou vos questions...",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "success": "Merci ! Votre message a bien été envoyé. Je reviens vers vous rapidement.",
+      "error": "Une erreur est survenue lors de l'envoi. Veuillez utiliser le lien mailto direct ou m'écrire à abdelhamidelaali@gmail.com.",
+      "validationError": "Veuillez renseigner des coordonnées valides."
+    }
+  },
+  "footer": {
+    "quote": "Bâtir des solutions web fiables, partager la passion du code.",
+    "rights": "Tous droits réservés.",
+    "backToTop": "Haut de page",
+    "craftedWith": "Conçu avec du code Vanilla propre, accessible et sans dépendance lourde."
+  },
+  "notFound": {
+    "title": "404 — Page Introuvable",
+    "subtitle": "La ressource demandée n'existe pas ou a été déplacée.",
+    "message": "Il semble que vous ayez suivi un lien brisé ou tapé une adresse inexistante.",
+    "backHome": "Retour à l'accueil"
+  }
+}

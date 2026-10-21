@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ocp-connect",
+    "category": "laravel",
+    "featured": true,
+    "title": {
+      "fr": "OCP Connect",
+      "en": "OCP Connect"
+    },
+    "subtitle": {
+      "fr": "Plateforme collaborative & partage sécurisé de documents",
+      "en": "Collaborative Platform & Secure Document Sharing"
+    },
+    "description": {
+      "fr": "Application web d'entreprise conçue pour le Groupe OCP (site de Benguerir), facilitant la communication inter-départements, la traçabilité des échanges et l'archivage sécurisé de documents sensibles avec gestion fine des rôles.",
+      "en": "Enterprise web application engineered for Groupe OCP (Benguerir site), streamlining inter-departmental communication, workflow auditing, and secure document management with granular role-based access control."
+    },
+    "longDescription": {
+      "fr": "Développée lors d'un stage au sein du Groupe OCP, OCP Connect résout les goulots d'étranglement de communication entre départements techniques et administratifs. Elle intègre un chiffrement au repos pour les documents, un moteur de recherche instantané, des notifications en temps réel et un journal d'audit conforme aux normes industrielles.",
+      "en": "Built during an engineering internship at Groupe OCP, OCP Connect bridges communication silos across technical and administrative departments. It features encryption at rest for sensitive files, instant multi-attribute search, real-time notifications, and strict compliance audit trails."
+    },
+    "tags": ["Laravel", "PHP", "MySQL", "Tailwind CSS", "REST API", "Docker"],
+    "image": "./assets/img/ocp-connect.webp",
+    "metrics": {
+      "fr": "Temps de partage réduit de 65%",
+      "en": "65% faster file distribution"
+    },
+    "year": "2026",
+    "links": {
+      "live": "#",
+      "github": "https://github.com/Abdelhamid-elaali"
+    }
+  },
+  {
+    "id": "portail-laattaouia",
+    "category": "laravel",
+    "featured": true,
+    "title": {
+      "fr": "Portail Laâttaouia",
+      "en": "Laâttaouia City Portal"
+    },
+    "subtitle": {
+      "fr": "Portail municipal officiel & CMS dynamique citoyen",
+      "en": "Official Municipal Portal & Dynamic Citizen CMS"
+    },
+    "description": {
+      "fr": "Conception et déploiement du portail web officiel de la Commune de Laâttaouia. Système de publication d'actualités communales, démarches administratives en ligne et gestion dynamique de contenus multimédias.",
+      "en": "Architected and delivered the official public portal for the Municipality of Laâttaouia. Features municipal news publishing, downloadable civic procedures, and a high-performance custom CMS."
+    },
+    "longDescription": {
+      "fr": "Réalisé pour la Commune de Laâttaouia, ce portail dote la municipalité d'une vitrine numérique accessible et moderne. Doté d'un tableau de bord d'administration sur-mesure, il permet aux agents municipaux de publier en toute autonomie les communiqués officiels, les appels d'offres et les formulaires citoyens avec un temps de réponse inférieur à 100ms.",
+      "en": "Crafted for the Municipality of Laâttaouia, this civic portal delivers a modern, accessible digital presence. Equipped with a custom administrative dashboard, municipal staff can autonomously publish official bulletins, public tenders, and citizen assistance forms with sub-100ms response times."
+    },
+    "tags": ["Laravel", "JavaScript", "MySQL", "Bootstrap", "REST API"],
+    "image": "./assets/img/portail-laattaouia.webp",
+    "metrics": {
+      "fr": "+15 000 consultations mensuelles",
+      "en": "+15k monthly civic visits"
+    },
+    "year": "2025",
+    "links": {
+      "live": "#",
+      "github": "https://github.com/Abdelhamid-elaali"
+    }
+  },
+  {
+    "id": "shop-pos",
+    "category": "webapp",
+    "featured": true,
+    "title": {
+      "fr": "Shop POS & Gestion de Stock",
+      "en": "Shop POS & Inventory Management"
+    },
+    "subtitle": {
+      "fr": "Point de vente par code-barres & synchronisation d'inventaire",
+      "en": "Barcode Point of Sale & Real-Time Stock Engine"
+    },
+    "description": {
+      "fr": "Solution complète de caisse enregistreuse et de gestion de stocks en temps réel. Support des lecteurs code-barres, alertes de réapprovisionnement, facturation instantanée et rapports de ventes analytiques.",
+      "en": "Comprehensive point-of-sale and real-time inventory management solution. Features hardware barcode scanning, automated replenishment alerts, instantaneous invoice generation, and sales analytics."
+    },
+    "longDescription": {
+      "fr": "Pensé pour le commerce de détail et les PME, ce système POS assure une cadence de vente ultra-rapide au comptoir grâce à une interface tactile et des raccourcis clavier optimisés. L'architecture API REST permet la synchronisation multi-terminaux et l'exportation automatique de bilans comptables.",
+      "en": "Engineered for retail stores and SMEs, this POS system accelerates counter checkout through a responsive touch interface and streamlined keyboard shortcuts. A REST API back-end powers multi-terminal synchronization and automated financial reporting."
+    },
+    "tags": ["React", "Laravel", "REST API", "PostgreSQL", "Tailwind CSS"],
+    "image": "./assets/img/shop-pos.webp",
+    "metrics": {
+      "fr": "Passage en caisse < 10 secondes",
+      "en": "Sub-10s checkout speed"
+    },
+    "year": "2025",
+    "links": {
+      "live": "#",
+      "github": "https://github.com/Abdelhamid-elaali"
+    }
+  }
+]

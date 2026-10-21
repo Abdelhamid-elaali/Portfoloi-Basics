@@ -1,0 +1,230 @@
+/* ==========================================================================
+   ANIMATIONS & MOTION SYSTEM
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. KEYFRAMES
+   -------------------------------------------------------------------------- */
+@keyframes draw-stroke {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-offset-1 {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(-1.5deg);
+  }
+}
+
+@keyframes float-offset-2 {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1.5deg);
+  }
+}
+
+@keyframes scroll-dot {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--accent-secondary);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. SCROLL REVEAL ENGINE
+   -------------------------------------------------------------------------- */
+[data-reveal] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: var(--duration-reveal);
+  transition-timing-function: var(--ease-out-expo);
+  will-change: opacity, transform;
+}
+
+[data-reveal="up"] {
+  transform: translateY(32px);
+}
+
+[data-reveal="down"] {
+  transform: translateY(-32px);
+}
+
+[data-reveal="left"] {
+  transform: translateX(-32px);
+}
+
+[data-reveal="right"] {
+  transform: translateX(32px);
+}
+
+[data-reveal="scale"] {
+  transform: scale(0.92);
+}
+
+[data-reveal="fade"] {
+  transform: none;
+}
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Delay Helpers */
+[data-delay="100"] { transition-delay: 100ms; }
+[data-delay="150"] { transition-delay: 150ms; }
+[data-delay="200"] { transition-delay: 200ms; }
+[data-delay="250"] { transition-delay: 250ms; }
+[data-delay="300"] { transition-delay: 300ms; }
+[data-delay="350"] { transition-delay: 350ms; }
+[data-delay="400"] { transition-delay: 400ms; }
+[data-delay="500"] { transition-delay: 500ms; }
+[data-delay="600"] { transition-delay: 600ms; }
+
+/* --------------------------------------------------------------------------
+   3. LANGUAGE CROSS-FADE TRANSITION
+   -------------------------------------------------------------------------- */
+body.i18n-transitioning [data-i18n],
+body.i18n-transitioning [data-i18n-html] {
+  opacity: 0.35;
+  transition: opacity 160ms ease-out;
+}
+
+/* --------------------------------------------------------------------------
+   4. CUSTOM CURSOR (FINE POINTERS ONLY)
+   -------------------------------------------------------------------------- */
+@media (pointer: fine) {
+  .custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: var(--accent-secondary);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: var(--z-cursor);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+  }
+
+  .custom-cursor-follower {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--accent-primary);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: calc(var(--z-cursor) - 1);
+    transform: translate(-50%, -50%);
+    transition: transform 0.08s ease-out, width 0.2s ease, height 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  }
+
+  body.cursor-hover .custom-cursor {
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+  }
+
+  body.cursor-hover .custom-cursor-follower {
+    width: 48px;
+    height: 48px;
+    border-color: var(--accent-secondary);
+    background: rgba(99, 102, 241, 0.12);
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. PREFERS-REDUCED-MOTION (ACCESSIBILITY FIRST)
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .marquee-wrapper {
+    overflow-x: auto;
+  }
+
+  .hero-avatar-wrapper,
+  .hero-floating-pill {
+    animation: none !important;
+  }
+
+  .custom-cursor,
+  .custom-cursor-follower {
+    display: none !important;
+  }
+}
